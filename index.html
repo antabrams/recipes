@@ -4,14 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Korean Recipes</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Welcome to Korean Recipes!</h1>
-    <p>Choose your dish below: </p>
-    <ul>
-        <li><a href="recipes/pakimchi.html">Pa kimchi</a></li>
-        <li><a href="recipes/korean-style-mapo-tofu.html">Korean-Style Mapo Tofu</a></li>
-        <li><a href="recipes/Makegolli.html">Makegolli</a></li>
-    </ul>
+    <div class="container">
+        <div class="items">
+            <h1 class="introduction">Welcome to Korean Recipes!</h1>
+            <div class="options-container">
+                <p class="instructions">Choose your dish below: </p>
+                <ul class="options">
+                    <li><a href="recipes/pakimchi/pakimchi.html" id="pakimchi" class="option">Pa kimchi</a></li>
+                    <li><a href="recipes/mapo/korean-style-mapo-tofu.html" id="mapo-tofu" class="option">Korean-Style Mapo Tofu</a></li>
+                    <li><a href="recipes/makegolli/Makegolli.html" id="makegolli" class="option">Makegolli</a></li>
+                </ul>
+            </div>
+        </div>
+</div>
 </body>
 </html>
